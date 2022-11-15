@@ -1,8 +1,8 @@
 operacion= "SUMAR","RESTA","MULTIPLICAR","DIVIDIR"
-SUMAR="a"
-RESTAR="b"
-MULTIPLICAR= "c"
-DIVIDIR= "d"
+a="SUMAR"
+b="RESTAR"
+c="MULTIPLICAR"
+d="DIVIDIR"
 
 input('Bienvenido')
 num1=input("ingrese un numero:")
@@ -13,13 +13,13 @@ print("b=>RESTAR")
 print("c=>MULTIPLICAR")    
 print("d=>DIVIDIR")    
 operacion= input("indique la operacion que desea realizar: ")
-if operacion=="SUMAR" :
+if operacion=="a" :
     print(num1,"+",num2,"=", num1+num2)
-elif operacion=="RESTAR" :  
+elif operacion=="b" :  
     print(num1,"-",num2, "=", int(num1)- int (num2))
-elif operacion== "MULTIPLICAR":
+elif operacion== "c":
     print(num1,"x",num2,"=", int(num1)*int(num2))
-elif operacion== "DIVIDIR":
+elif operacion== "d":
     print(num1,"/",num2,"=", int(num1)/int(num2))
 
 
