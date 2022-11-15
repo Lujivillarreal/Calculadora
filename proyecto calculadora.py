@@ -1,10 +1,11 @@
-operacion= "SUMAR","RESTA","MULTIPLICAR","DIVIDIR"
+#index
+operacion= "a","b","c","c"
 a="SUMAR"
 b="RESTAR"
 c="MULTIPLICAR"
 d="DIVIDIR"
 
-input('Bienvenido')
+input('¡Bienvenido cerebrito!')
 num1=input("ingrese un numero:")
 num2= input("ingrese otro numero:") 
 print ("indique la operacion que desea realizar: ")
@@ -21,6 +22,10 @@ elif operacion== "c":
     print(num1,"x",num2,"=", int(num1)*int(num2))
 elif operacion== "d":
     print(num1,"/",num2,"=", int(num1)/int(num2))
+while a!="d":
+    print("¡Comencemos de nuevo!")
+
+
 
 
 
